@@ -26,6 +26,7 @@
 
     <modules>
         <module>furnace-alibaba-nacos</module>
+        <module>furnace-cloud-gateway</module>
     </modules>
 
     <parent>

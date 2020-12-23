@@ -1,0 +1,19 @@
+server:
+  port: 31302
+spring:
+  application:
+    name: furnace-alibaba-nacos
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+        namespace: furnace-alibaba
+      config:
+        server-addr: 127.0.0.1:8848
+        namespace: furnace-alibaba
+        file-extension: yaml
+        prefix: furnace-alibaba-nacos
+        group: DEFAULT_GROUP
+

@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 @EnableDiscoveryClient
 public class FurnaceAlibabaNacosApplication {
+
     public static void main(String[] args) {
         SpringApplication.run(FurnaceAlibabaNacosApplication.class, args);
     }
